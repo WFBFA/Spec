@@ -40,7 +40,7 @@ Inputs:
 - Flight paths
 
 Outputs:
-- Snow status
+- [Snow status](3.snow-status.schema.json)
 
 ## 4 - Construction of plow paths
 
@@ -48,7 +48,7 @@ Using all of the data collected so far and vehicle configuration, construct best
 
 Inputs:
 - [Road graph](1.road-graph.schema.json)
-- Snow status(es) - a default snow depth + 0 or more snow status \[surveillance\] results that \[each\] update previously accumulated information
+- Snow status(es) - a default snow depth + 0 or more [snow status](3.snow-status.schema.json) \[surveillance\] results that \[each\] update previously accumulated information
 - Vehicle configuration
 
 Outputs:

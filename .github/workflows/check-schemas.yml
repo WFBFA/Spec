@@ -7,8 +7,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: json-schema-validation
-        uses: emagers/json-schema-validation@v1.0.0
-        with:
-          schema: "https://json-schema.org/draft-07/schema"
-          testFile: "definitions.json"

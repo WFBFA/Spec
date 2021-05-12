@@ -49,7 +49,7 @@ Using all of the data collected so far and vehicle configuration, construct best
 Inputs:
 - [Road graph](1.road-graph.schema.json)
 - Snow status(es) - a default snow depth + 0 or more [snow status](3.snow-status.schema.json) \[surveillance\] results that \[each\] update previously accumulated information
-- Vehicle configuration
+- [Vehicle configuration](4.vehicles.schema.json)
 
 Outputs:
 - Road vehicle paths

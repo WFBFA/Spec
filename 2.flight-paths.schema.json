@@ -8,7 +8,7 @@
 		"description": "Flight path for the respective vehicle. Start and end points correspond to the initial location of the vehicle.",
 		"items": {
 			"type": "string",
-			"description": "ID of the (next) node in the road graph",
+			"description": "ID of the (next) node in the road graph"
 		}
 	}
 }

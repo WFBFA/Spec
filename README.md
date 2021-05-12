@@ -27,7 +27,7 @@ Inputs:
 - [Drone configuration](2.drones.schema.json)
 
 Outputs:
-- Flight paths (start and end points of each path correspond to the base location specified in the input configuration)
+- [Flight paths](2.flight-paths.schema.json) (start and end points of each path correspond to the base location specified in the input configuration)
 
 ## 3 - Brrrrr (processing of aerial imagery)
 
@@ -37,7 +37,7 @@ Flying vehicles do their mass ❄ surveillance thing, and the resulting imagery 
 
 Inputs:
 - [Road graph](1.road-graph.schema.json)
-- Flight paths
+- [Flight paths](2.flight-paths.schema.json)
 
 Outputs:
 - [Snow status](3.snow-status.schema.json)

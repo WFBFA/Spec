@@ -52,8 +52,8 @@ Inputs:
 - [Vehicle configuration](4.vehicles.schema.json)
 
 Outputs:
-- Road vehicle paths
-- Sidewalk vehicle paths
+- [Road vehicle paths](4.road-paths.schema.json)
+- [Sidewalk vehicle paths](4.sidewalk-paths.schema.json)
 
 ## 5 - Costs modelling
 

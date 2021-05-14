@@ -18,7 +18,7 @@ Inputs:
 Outputs:
 - [Road graph](1.road-graph.schema.json)
 
-## 2 - Construction of flight paths
+## [2 - Construction of flight paths](https://github.com/WFBFA/Flight-Paths)
 
 Using the road graph and surveillance vehicle configuration, optimal flight paths for complete coverage are constructed. 
 

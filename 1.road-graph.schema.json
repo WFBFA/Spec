@@ -18,6 +18,10 @@
                         "type": "string",
                         "description": "Some unique ID of second point"
                     },
+                    "discriminator": {
+                        "type": "string",
+                        "description": "Some discriminator (to properly differentiate multiple roads between 2 points w/o relying on distance)"
+                    },
                     "directed": {
                         "type": "boolean",
                         "description": "Whether the road is one way (from p1 to p2)"

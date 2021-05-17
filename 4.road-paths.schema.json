@@ -7,8 +7,21 @@
 		"type": "array",
 		"description": "Path for the respective vehicle. Start and end points correspond to the initial location of the vehicle.",
 		"items": {
-			"type": "string",
-			"description": "ID of the (next) node in the road graph"
+			"type": "object",
+			"description": "next path segment",
+			"properties": {
+				"node": {
+					"type": "string",
+					"description": "ID of the (next) node in the road graph"
+				},
+				"discriminator": {
+					"type": "string",
+					"description": "road discriminator"
+				}
+			},
+			"required": [
+				"node"
+			]
 		}
 	}
 }

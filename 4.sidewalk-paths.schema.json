@@ -14,6 +14,10 @@
 					"type": "string",
 					"description": "ID of the (next) node in the road graph"
 				},
+				"discriminator": {
+					"type": "string",
+					"description": "road discriminator"
+				},
 				"side": {
 					"type": "string",
 					"enum": ["left", "right"],

@@ -70,6 +70,7 @@
         }
     },
     "required": [
-        "roads"
+        "roads",
+        "nodes"
     ]
 }
